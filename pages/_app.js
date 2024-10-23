@@ -9,7 +9,7 @@ import '../public/assets/css/mbr-additional_rnd1729249664608.css';
 import '../public/assets/dropdown/css/style_rnd1729249664608.css';
 import '../styles/globals.css'
 
-const Roboto_Flex = Roboto_Flex({
+const roboto = Roboto_Flex({
   weight: ['400', '700'],
   style: ['normal', 'italic'],
   subsets: ['latin'],
