@@ -23,18 +23,8 @@ const ExampleComponent = () => {
     rel="stylesheet"
     href="assets/web/assets/mobirise-icons2/mobirise2_rnd%3D1729249664608.css"
   />
-  <link
-    rel="stylesheet"
-    href="assets/bootstrap/css/bootstrap.min_rnd%3D1729249664608.css"
-  />
-  <link
-    rel="stylesheet"
-    href="assets/bootstrap/css/bootstrap-grid.min_rnd%3D1729249664608.css"
-  />
-  <link
-    rel="stylesheet"
-    href="assets/bootstrap/css/bootstrap-reboot.min_rnd%3D1729249664608.css"
-  />
+
+
   <link
     rel="stylesheet"
     href="assets/parallax/jarallax_rnd%3D1729249664608.css"
