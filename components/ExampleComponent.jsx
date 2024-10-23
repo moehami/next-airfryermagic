@@ -982,12 +982,22 @@ Air Fryer Magic
         <div className="col-12 mt-5">
           <p className="mbr-fonts-style copyright display-7">
             {" "}
-            2024 Air Fryer Lover. All rights reserved.
+            2024 Air Fryer Magic. All rights reserved.
           </p>
         </div>
       </div>
     </div>
   </section>
+  <script src="../public/assets/web/assets/jquery/jquery.min_rnd1729249664608.js"></script>
+  <script src="../public/assets/bootstrap/js/bootstrap.bundle.min_rnd1729249664608.js"></script>
+  <script src="../public/assets/parallax/jarallax_rnd1729249664608.js"></script>
+  <script src="../public/assets/smoothscroll/smooth-scroll_rnd1729249664608.js"></script>
+  <script src="../public/assets/ytplayer/index_rnd1729249664608.js"></script>
+  <script src="../public/assets/dropdown/js/navbar-dropdown_rnd1729249664608.js"></script>
+  <script src="../public/assets/scrollgallery/scroll-gallery_rnd1729249664608.js"></script>
+  <script src="../public/assets/vimeoplayer/player_rnd1729249664608.js"></script>
+  <script src="../public/assets/theme/js/script_rndD1729249664608.js"></script>
+  <script src="../public/assets/formoid/formoid.min_rnd1729249664608.js"></script> 
 </>
 
     </div>
