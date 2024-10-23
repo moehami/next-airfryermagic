@@ -984,7 +984,7 @@ Air Fryer Magic
   <script src="../public/assets/parallax/jarallax_rnd1729249664608.js"></script>
   <script src="../public/assets/smoothscroll/smooth-scroll_rnd1729249664608.js"></script>
   <script src="../public/assets/ytplayer/index_rnd1729249664608.js"></script>
-  <script src="../public/assets/dropdown/js/navbar-dropdown_rnd1729249664608.js"></script>
+  <script src="assets/dropdown/js/navbar-dropdown_rnd1729249664608.js"></script>
   <script src="../public/assets/scrollgallery/scroll-gallery_rnd1729249664608.js"></script>
   <script src="../public/assets/vimeoplayer/player_rnd1729249664608.js"></script>
   <script src="../public/assets/theme/js/script_rndD1729249664608.js"></script>
