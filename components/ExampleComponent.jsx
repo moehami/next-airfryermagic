@@ -1,8 +1,8 @@
 // ExampleComponent.jsx
 import { Metadata } from 'next';
 export let metadata: Metadata = {
-  title: "Air Fryer Magic",
-  description: "Discover the ultimate air fryer hacks and delicious recipes that will transform your cooking experience"
+  description:
+    "Discover the ultimate air fryer hacks and delicious recipes that will transform your cooking experience"
 };
 const ExampleComponent = () => {
   return (
@@ -14,6 +14,7 @@ const ExampleComponent = () => {
     name="viewport"
     content="width=device-width, initial-scale=1, minimum-scale=1"
   />
+  <title>Air Fryer Magic </title>
   <link
     rel="shortcut icon"
     href="assets/images/HkcqL2rMkyaB.jpeg"
