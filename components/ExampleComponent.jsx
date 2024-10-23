@@ -1,8 +1,8 @@
 // ExampleComponent.jsx
-import "assets/web/assets/mobirise-icons2/mobirise2_rnd%3D1729249664608.css"
-import "assets/parallax/jarallax_rnd%3D1729249664608.css"
-import "assets/socicon/css/styles_rnd%3D1729249664608.css"
-import "assets/css/mbr-additional_rnd%3D1729249664608.css"
+import "../assets/web/assets/mobirise-icons2/mobirise2_rnd%3D1729249664608.css"
+import "../assets/parallax/jarallax_rnd%3D1729249664608.css"
+import "../assets/socicon/css/styles_rnd%3D1729249664608.css"
+import "../assets/css/mbr-additional_rnd%3D1729249664608.css"
 
 const ExampleComponent = () => {
   return (
