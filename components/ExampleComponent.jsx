@@ -65,12 +65,12 @@ Air Fryer Magic
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav nav-dropdown" data-app-modern-menu="true">
             <li className="nav-item">
-              <link
+              <a
                 className="nav-link link text-black display-4"
                 href="https://airfryerwonder.com/category/air-frying-articles/"
               >
                 Hacks
-              </link>
+              </a>
             </li>
             <li className="nav-item">
               <a
