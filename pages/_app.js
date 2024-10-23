@@ -7,7 +7,7 @@ import '../public/assets/parallax/jarallax_rnd1729249664608.css';
 import '../public/assets/socicon/css/styles_rnd1729249664608.css';
 import '../public/assets/css/mbr-additional_rnd1729249664608.css';
 import '../public/assets/dropdown/css/style_rnd1729249664608.css';
-//import '../styles/globals.css'
+import '../styles/globals.css'
 
 
 
