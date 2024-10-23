@@ -1,4 +1,8 @@
 // ExampleComponent.jsx
+import "assets/web/assets/mobirise-icons2/mobirise2_rnd%3D1729249664608.css"
+import "assets/parallax/jarallax_rnd%3D1729249664608.css"
+
+
 const ExampleComponent = () => {
   return (
     <div>
@@ -19,16 +23,9 @@ const ExampleComponent = () => {
     content="Discover the ultimate air fryer hacks and delicious recipes that will transform your cooking experience. Elevate your meals with quick, healthy, and tasty options!"
   />
   <title>Air Fryer Magic</title>
-  <link
-    rel="stylesheet"
-    href="assets/web/assets/mobirise-icons2/mobirise2_rnd%3D1729249664608.css"
-  />
 
 
-  <link
-    rel="stylesheet"
-    href="assets/parallax/jarallax_rnd%3D1729249664608.css"
-  />
+
   <link
     rel="stylesheet"
     href="assets/dropdown/css/style_rnd%3D1729249664608.css"
