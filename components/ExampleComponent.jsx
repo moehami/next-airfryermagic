@@ -1,6 +1,6 @@
 // ExampleComponent.jsx
 
-import type { Metadata } from 'next'
+import { Metadata } from 'next'
  
 const metadata: Metadata = {
   title: 'Air Fryer Magic',
