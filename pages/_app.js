@@ -6,11 +6,13 @@ import { Roboto_Flex } from 'next/font/google';
 import '../public/assets/bootstrap/css/bootstrap-grid.min_rnd1729249664608.css';
 import '../public/assets/bootstrap/css/bootstrap.min_rnd1729249664608.css';
 import '../public/assets/bootstrap/css/bootstrap.reboot.min_rnd1729249664608.css';
+
 import '../public/assets/web/assets/mobirise-icons2/mobirise2_rnd1729249664608.css';
 import '../public/assets/parallax/jarallax_rnd1729249664608.css';
 import '../public/assets/socicon/css/styles_rnd1729249664608.css';
 import '../public/assets/css/mbr-additional_rnd1729249664608.css';
 import '../public/assets/dropdown/css/style_rnd1729249664608.css';
+import '../public/assets/theme/css/style_rnd1729249664608.css';
 import '../styles/globals.css'
 
 const roboto = Roboto_Flex({
