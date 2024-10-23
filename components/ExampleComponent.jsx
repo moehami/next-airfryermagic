@@ -1,5 +1,5 @@
 // ExampleComponent.jsx
-import { Roboto, Flex } from 'next/font/google'
+
 import type { Metadata } from 'next'
  
 export const metadata: Metadata = {
