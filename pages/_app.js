@@ -1,6 +1,6 @@
 // pages/_app.js
 import Head from 'next/head';
-import { Roboto, Flex } from 'next/font/google';
+import { Roboto_Flex } from 'next/font/google';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../public/assets/web/assets/mobirise-icons2/mobirise2_rnd1729249664608.css';
 import '../public/assets/parallax/jarallax_rnd1729249664608.css';
@@ -9,19 +9,14 @@ import '../public/assets/css/mbr-additional_rnd1729249664608.css';
 import '../public/assets/dropdown/css/style_rnd1729249664608.css';
 import '../styles/globals.css'
 
-const roboto = Roboto({
+const Roboto_Flex = Roboto_Flex({
   weight: ['400', '700'],
   style: ['normal', 'italic'],
   subsets: ['latin'],
   display: 'swap',
 })
 
-const flex = Flex({
-  weight: ['400', '700'],
-  style: ['normal', 'italic'],
-  subsets: ['latin'],
-  display: 'swap',
-})
+
 function Application({ Component, pageProps }) {
   return <Component {...pageProps} />
 }
