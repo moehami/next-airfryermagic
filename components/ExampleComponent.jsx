@@ -1,6 +1,6 @@
 // ExampleComponent.jsx
 
-export const metadata: Metadata = {
+let metadata: Metadata = {
   title: "Air Fryer Magic",
   description: "Discover the ultimate air fryer hacks and delicious recipes that will transform your cooking experience",
 }
