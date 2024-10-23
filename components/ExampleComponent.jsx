@@ -979,16 +979,16 @@ Air Fryer Magic
       </div>
     </div>
   </section>
-  <script src="../public/assets/web/assets/jquery/jquery.min_rnd1729249664608.js"></script>
-  <script src="../public/assets/bootstrap/js/bootstrap.bundle.min_rnd1729249664608.js"></script>
-  <script src="../public/assets/parallax/jarallax_rnd1729249664608.js"></script>
-  <script src="../public/assets/smoothscroll/smooth-scroll_rnd1729249664608.js"></script>
-  <script src="../public/assets/ytplayer/index_rnd1729249664608.js"></script>
+  <script src="assets/web/assets/jquery/jquery.min_rnd1729249664608.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.bundle.min_rnd1729249664608.js"></script>
+  <script src="assets/parallax/jarallax_rnd1729249664608.js"></script>
+  <script src="assets/smoothscroll/smooth-scroll_rnd1729249664608.js"></script>
+  <script src="assets/ytplayer/index_rnd1729249664608.js"></script>
   <script src="assets/dropdown/js/navbar-dropdown_rnd1729249664608.js"></script>
-  <script src="../public/assets/scrollgallery/scroll-gallery_rnd1729249664608.js"></script>
-  <script src="../public/assets/vimeoplayer/player_rnd1729249664608.js"></script>
-  <script src="../public/assets/theme/js/script_rndD1729249664608.js"></script>
-  <script src="../public/assets/formoid/formoid.min_rnd1729249664608.js"></script> 
+  <script src="assets/scrollgallery/scroll-gallery_rnd1729249664608.js"></script>
+  <script src="vimeoplayer/player_rnd1729249664608.js"></script>
+  <script src="assets/theme/js/script_rndD1729249664608.js"></script>
+  <script src="assets/formoid/formoid.min_rnd1729249664608.js"></script> 
 </>
 
     </div>
