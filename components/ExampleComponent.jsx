@@ -1,5 +1,5 @@
 // ExampleComponent.jsx
-import { Metadata } from 'next';
+//import { Metadata } from 'next';
 export let metadata = {
   title: "Air Fryer Magic",
   description:
