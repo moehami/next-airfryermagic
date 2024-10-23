@@ -1,6 +1,11 @@
 // ExampleComponent.jsx
-
-
+import { Roboto, Flex } from 'next/font/google'
+import type { Metadata } from 'next'
+ 
+export const metadata: Metadata = {
+  title: 'Air Fryer Magic',
+  description: 'Discover the ultimate air fryer hacks and delicious recipes that will transform your cooking experience. Elevate your meals with quick, healthy, and tasty options!',
+}
 const ExampleComponent = () => {
   return (
     <div>
@@ -16,27 +21,10 @@ const ExampleComponent = () => {
     href="assets/images/HkcqL2rMkyaB.jpeg"
     type="image/x-icon"
   />
-  <meta
-    name="description"
-    content="Discover the ultimate air fryer hacks and delicious recipes that will transform your cooking experience. Elevate your meals with quick, healthy, and tasty options!"
-  />
+  
   <title>Air Fryer Magic</title>
 
-
-
-
-
-  <link
-    rel="preload"
-    href="https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@400;700&display=swap&display=swap"
-    as="style"
-    onload="this.onload=null;this.rel='stylesheet'"
-  />
-  <noscript>
-    &lt;link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@400;700&amp;display=swap&amp;display=swap"&gt;
-  </noscript>
-  
+ 
   <style
     dangerouslySetInnerHTML={{
       __html:
@@ -61,7 +49,7 @@ const ExampleComponent = () => {
           </span>
           <span className="navbar-caption-wrap">
             <a className="navbar-caption text-black display-4" href="#">
-              Frytopia
+Air Fryer Magic
             </a>
           </span>
         </div>
