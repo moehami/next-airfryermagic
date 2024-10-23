@@ -1,9 +1,9 @@
 // ExampleComponent.jsx
-import type { Metadata } from 'next',
+import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: "Air Fryer Magic",
   description: "Discover the ultimate air fryer hacks and delicious recipes that will transform your cooking experience",
-}
+};
 const ExampleComponent = () => {
   return (
     <div>
