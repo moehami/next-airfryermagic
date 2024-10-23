@@ -28,8 +28,7 @@ const ExampleComponent = () => {
     data-bs-version="5.1"
     className="menu menu2 cid-uryiHhYxdN"
     once="menu"
-    id="menu-5-uryiHhYxdN"
-  >
+    id="menu-5-uryiHhYxdN">
     <nav className="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
       <div className="container">
         <div className="navbar-brand">
@@ -55,8 +54,7 @@ Air Fryer Magic
           data-bs-target="#navbarSupportedContent"
           aria-controls="navbarNavAltMarkup"
           aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+          aria-label="Toggle navigation">
           <div className="hamburger">
             <span />
             <span />
@@ -67,12 +65,12 @@ Air Fryer Magic
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav nav-dropdown" data-app-modern-menu="true">
             <li className="nav-item">
-              <a
+              <link
                 className="nav-link link text-black display-4"
                 href="https://airfryerwonder.com/category/air-frying-articles/"
               >
                 Hacks
-              </a>
+              </link>
             </li>
             <li className="nav-item">
               <a
