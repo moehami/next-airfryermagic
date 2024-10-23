@@ -5,6 +5,7 @@ import '../public/assets/web/assets/mobirise-icons2/mobirise2_rnd1729249664608.c
 import '../public/assets/parallax/jarallax_rnd1729249664608.css';
 import '../public/assets/socicon/css/styles_rnd1729249664608.css';
 import '../public/assets/css/mbr-additional_rnd1729249664608.css';
+import '../public/assets/dropdown/css/style_rnd1729249664608.css';
 //import '../styles/globals.css'
 
 function Application({ Component, pageProps }) {
