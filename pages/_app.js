@@ -11,8 +11,7 @@ import '../styles/globals.css'
 
 const roboto = Roboto_Flex({
   weight: ['400', '700'],
-  style: ['normal', 'italic'],
-  subsets: ['latin'],
+  style: ['normal'],
   display: 'swap',
 })
 
