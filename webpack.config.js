@@ -1,0 +1,6 @@
+// webpack.config.js
+module.exports = {
+  // ...
+  entry: ["./public/assets/mobirise-icons2/mobirise2_rnd1729249664608.css", "./pages/index.js"]
+  // ...
+}
