@@ -1,11 +1,11 @@
 // pages/index.js
-import ExampleComponent from '../components/ExampleComponent';
+import ExampleComponent from '../components/HomePage';
 
 export default function Home() {
   return (
 
 
-      <ExampleComponent />
+      <HomePage />
 
   );
 }
