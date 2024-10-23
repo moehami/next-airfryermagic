@@ -1,6 +1,6 @@
 // ExampleComponent.jsx
 import { Metadata } from 'next';
-export let metadata: Metadata = {
+export let metadata = {
   description:
     "Discover the ultimate air fryer hacks and delicious recipes that will transform your cooking experience"
 };
