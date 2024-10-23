@@ -23,7 +23,7 @@ const ExampleComponent = () => {
     type="image/x-icon"
   />
   
- <!-- Navbar --> 
+    {/* Navbar */}
 
   <section
     data-bs-version="5.1"
