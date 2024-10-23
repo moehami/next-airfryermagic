@@ -16,7 +16,8 @@ const ExampleComponent = () => {
     name="viewport"
     content="width=device-width, initial-scale=1, minimum-scale=1"
   />
-  <title>Air Fryer Magic </title>
+  
+  
   <link
     rel="shortcut icon"
     href="assets/images/HkcqL2rMkyaB.jpeg"
