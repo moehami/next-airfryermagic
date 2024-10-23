@@ -22,7 +22,6 @@ const ExampleComponent = () => {
     type="image/x-icon"
   />
   
-  <title>Air Fryer Magic</title>
 
  
   <style
