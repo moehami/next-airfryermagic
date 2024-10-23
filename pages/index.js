@@ -1,5 +1,5 @@
 // pages/index.js
-import HomePage from '../components/HomePage';
+import HomePage from '../components/ExampleComponents
 
 export default function Home() {
   return (
