@@ -1,5 +1,5 @@
 // pages/_app.js
-import Head from 'next/head';
+//import Head from 'next/head';
 import { Roboto_Flex } from 'next/font/google';
 //import 'bootstrap/dist/css/bootstrap.min.css';
 
