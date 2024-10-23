@@ -1,7 +1,8 @@
 // ExampleComponent.jsx
 import "assets/web/assets/mobirise-icons2/mobirise2_rnd%3D1729249664608.css"
 import "assets/parallax/jarallax_rnd%3D1729249664608.css"
-
+import "assets/socicon/css/styles_rnd%3D1729249664608.css"
+import "assets/css/mbr-additional_rnd%3D1729249664608.css"
 
 const ExampleComponent = () => {
   return (
@@ -26,18 +27,8 @@ const ExampleComponent = () => {
 
 
 
-  <link
-    rel="stylesheet"
-    href="assets/dropdown/css/style_rnd%3D1729249664608.css"
-  />
-  <link
-    rel="stylesheet"
-    href="assets/socicon/css/styles_rnd%3D1729249664608.css"
-  />
-  <link
-    rel="stylesheet"
-    href="assets/theme/css/style_rnd%3D1729249664608.css"
-  />
+
+
   <link
     rel="preload"
     href="https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@400;700&display=swap&display=swap"
@@ -48,11 +39,7 @@ const ExampleComponent = () => {
     &lt;link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@400;700&amp;display=swap&amp;display=swap"&gt;
   </noscript>
-  <link
-    rel="stylesheet"
-    href="assets/css/mbr-additional_rnd%3D1729249664608.css"
-    type="text/css"
-  />
+  
   <style
     dangerouslySetInnerHTML={{
       __html:
