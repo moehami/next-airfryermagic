@@ -1,5 +1,5 @@
 // components/HeroSection.jsx
-export default function HeroSection() {
+export default function CallToAction() {
   return (
   <section
     data-bs-version="5.1"
