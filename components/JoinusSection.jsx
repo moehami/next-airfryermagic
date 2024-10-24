@@ -3,7 +3,7 @@
 export default function JoinusSection() {
   return (
 <section
-    data-bs-version="5.1"
+    data-bs-version="5.1" 
     className="image02 cid-uryiHilmKb mbr-fullscreen mbr-parallax-background"
     id="image-13-uryiHilmKb"
   >
@@ -11,11 +11,11 @@ export default function JoinusSection() {
       <div className="row" />
     </div>
   </section>
-  <section
-    data-bs-version="5.1"
-    className="social4 cid-uryiHilHB7"
-    id="follow-us-1-uryiHilHB7"
-  >
+    
+<section
+  data-bs-version="5.1" 
+  className="social4 cid-uryiHilHB7"
+  id="follow-us-1-uryiHilHB7">
     <div className="container">
       <div className="media-container-row">
         <div className="col-12">
