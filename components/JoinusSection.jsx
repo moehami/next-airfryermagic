@@ -20,6 +20,27 @@ export default function JoinusSection() {
               >
                 <span className="socicon-facebook socicon" />
               </a>
+            <a
+              className="iconfont-wrapper bg-twitter m-2"
+              href="#"
+              target="_blank"
+            >
+              <span className="socicon-twitter socicon" />
+            </a>
+            <a
+              className="iconfont-wrapper bg-instagram m-2"
+              href="#"
+              target="_blank"
+            >
+              <span className="socicon-instagram socicon" />
+            </a>
+            <a
+              className="iconfont-wrapper bg-tiktok m-2"
+              href="#"
+              target="_blank"
+            >
+              <span className="socicon-tiktok socicon" />
+            </a>  
               {/* ... other social media links */}
             </div>
           </div>
