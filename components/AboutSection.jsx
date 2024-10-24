@@ -14,7 +14,7 @@ export default function AboutSection() {
             <div className="image-wrapper d-flex justify-content-center mb-4">
 
                <Image
-                  src="/images/hx3dzpX8sWWZ.jpeg"
+                  src="assets/images/hx3dzpX8sWWZ.jpeg"
                   alt="About Air Fryer Magic"
                   width={800}
                   height={600}
