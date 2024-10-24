@@ -16,12 +16,16 @@ const Rec = () => {
   }, []);
 
   return (
-    <div>
+      <div>
       {recipes.map((item) => (
-        <div key={item.sys.id}>{item.fields.title}</div>
-      ))}
-    </div>
+        <div key={item.sys.id}>
+          <h2>{item.fields.title}</h2>
+          <p>{item.fields.description}</p>
+          {/* You can add more fields here */}
+        </div>
   );
 };
 
 export default Rec;
+
+
