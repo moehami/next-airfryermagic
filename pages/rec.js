@@ -1,6 +1,6 @@
 // pages/index.js
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container, Row, Col, Card } from 'react-bootstrap';
+import { Container, Row, Col, Card } from 'bootstrap';
 import { useEffect, useState } from 'react';
 import { createClient } from 'contentful';
 
