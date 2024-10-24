@@ -23,7 +23,7 @@ const Rec = () => {
           <p>{item.fields.content}</p>
           {/* You can add more fields here */}
         </div>
-  );
+  )
 };
 
 export default Rec;
