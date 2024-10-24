@@ -22,7 +22,7 @@ export default function LatestNewsSection() {
           <div className="item-wrapper">
             <div className="item-img mb-3">
               <Image
-                src="assets/images/qCf6hCvXsaxR.jpeg"
+                src="/assets/images/qCf6hCvXsaxR.jpeg"
                 alt="Air Fryer Magic"
                 title=""
               />
@@ -50,7 +50,7 @@ export default function LatestNewsSection() {
           <div className="item-wrapper">
             <div className="item-img mb-3">
               <Image
-                src="assets/images/0G5k5hXnU9Qb.jpeg"
+                src="/assets/images/0G5k5hXnU9Qb.jpeg"
                 alt="Mobirise Website Builder"
                 title=""
                 data-slide-to={1}
@@ -80,7 +80,7 @@ export default function LatestNewsSection() {
           <div className="item-wrapper">
             <div className="item-img mb-3">
            <Image
-                src="assets/images/xYCYbD5tjfLU.jpeg"
+                src="/assets/images/xYCYbD5tjfLU.jpeg"
                 alt="air fryer lover"
                 title=""
                 data-slide-to={2}
@@ -110,7 +110,7 @@ export default function LatestNewsSection() {
           <div className="item-wrapper">
             <div className="item-img mb-3">
               <Image
-                src="assets/images/bwQ7N0K8SlqD.jpeg"
+                src="/assets/images/bwQ7N0K8SlqD.jpeg"
                 alt="af lover"
                 title=""
                 data-slide-to={2}

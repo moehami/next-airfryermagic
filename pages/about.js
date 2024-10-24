@@ -1,5 +1,5 @@
 
-import Card from "react-dom"
+
 function TextExample() {
   return (
     <Card style={{ width: '18rem' }}>
