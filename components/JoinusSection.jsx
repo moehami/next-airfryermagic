@@ -10,8 +10,7 @@ export default function JoinusSection() {
       </div>
     </section>
 
-    <section
-      data-bs-version="5.1"
+  <section data-bs-version="5.2"
       className="social4 cid-uryiHilHB7"
       id="follow-us-1-uryiHilHB7"
     >
