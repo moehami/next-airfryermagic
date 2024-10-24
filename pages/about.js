@@ -1,4 +1,4 @@
-"use Client";
+
 import Card from 'bootstrap';
 
 function TextExample() {
