@@ -7,7 +7,7 @@ const client = createClient({
   accessToken: 'KzOIik4H_2cON-AliK4ROe8txuHoDWelHPVKsnWDXNM'
 });
 
-const Home = () => {
+const Rec = () => {
   const [recipes, setRecipes] = useState([]);
 
   useEffect(() => {
@@ -24,4 +24,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Rec;
