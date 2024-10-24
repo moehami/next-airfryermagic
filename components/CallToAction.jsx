@@ -1,4 +1,4 @@
-// components/HeroSection.jsx
+// components/CallToAction.jsx
 export default function CallToAction() {
   return (
   <section
