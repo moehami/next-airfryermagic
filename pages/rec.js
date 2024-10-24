@@ -1,4 +1,6 @@
 // pages/index.js
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Container, Row, Col, Card } from 'react-bootstrap';
 import { useEffect, useState } from 'react';
 import { createClient } from 'contentful';
 
@@ -16,15 +18,21 @@ const Rec = () => {
   }, []);
 
   return (
-    <div>
-      {recipes.map((item) => (
-        <div key={item.sys.id}>
-          <h2>{item.fields.title}</h2>
-          <p>{item.fields.content}</p>
-
-        </div>
-      ))}
-    </div>
+     <Container>
+      <Row>
+        {recipes.map((item) => (
+          <Col key={item.sys.id} md={4}>
+            <Card className="mb-4">
+              <Card.Body>
+                <Card.Title>{item.fields.title}</Card.Title>
+                <Card.Text>{item.fields.content}</Card.Text>
+                {/* More fields if needed */}
+              </Card.Body>
+            </Card>
+          </Col>
+        ))}
+      </Row>
+    </Container>
   );
 };
 
