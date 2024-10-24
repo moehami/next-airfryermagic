@@ -20,7 +20,7 @@ const Rec = () => {
       {recipes.map((item) => (
         <div key={item.sys.id}>
           <h2>{item.fields.title}</h2>
-          <p>{item.fields.description}</p>
+          <p>{item.fields.content}</p>
           {/* You can add more fields here */}
         </div>
   );
