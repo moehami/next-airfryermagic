@@ -5,7 +5,11 @@ const client = contentful.createClient({
   environment: 'master', // defaults to 'master' if not set
   accessToken: 'KzOIik4H_2cON-AliK4ROe8txuHoDWelHPVKsnWDXNM'
 })
-
+export default function Page() {
+  return ( <h1>Hello, Home page!</h1>
+  
 client.getEntry('011oZBbAf2Xms9L4UnaCdq')
   .then((entry) => console.log(entry))
   .catch(console.error)
+)
+}
