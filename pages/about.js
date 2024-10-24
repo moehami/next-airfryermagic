@@ -1,5 +1,5 @@
 "use Client";
-import Card from 'react-bootstrap/Card';
+import Card from 'bootstrap';
 
 function TextExample() {
   return (
