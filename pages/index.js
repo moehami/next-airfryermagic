@@ -8,14 +8,22 @@ import LatestNewsSection from '../components/LatestNewsSection';
 import TestimonialsSection from '../components/TestimonialsSection';
 import FaqSection from '../components/FaqSection';
 import JoinusSection from '../components/JoinusSection';
+import ContactusSection from '../components/ContactusSection';
+import FooterSection from '../components/FooterSection';
 export default function Home() {
   return (
     <>
-      <Navbar />
-    <HeroSection />
-    <CallToAction />
-    <AboutSection />
-      <HomePage />
+  <Navbar />
+<HeroSection />
+<CallToAction />
+<AboutSection />
+<LatestNewsSection />
+<TestimonialsSection />
+<FaqSection />
+<JoinusSection />
+<ContactusSection />
+<FooterSection />
+<HomePage />
     </>
   );
 }
