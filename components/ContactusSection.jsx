@@ -1,4 +1,4 @@
-
+import Form from 'next/form'
 
 export default function ContactusSection() {
   return (
@@ -20,7 +20,7 @@ export default function ContactusSection() {
       </div>
       <div className="row justify-content-center">
         <div className="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
-          <form
+          <Form
             action="#"
             method="POST"
             className="mbr-form form-with-styler"
@@ -101,7 +101,7 @@ export default function ContactusSection() {
                 </button>
               </div>
             </div>
-          </form>
+          </Form>
         </div>
       </div>
     </div>
