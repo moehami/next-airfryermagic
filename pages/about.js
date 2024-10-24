@@ -1,20 +1,31 @@
+import useSWR from "swr";
 
+const fetcher = (url) => fetch(url).then((res) => res.json());
 
-function TextExample() {
-  return (
-    <Card style={{ width: '18rem' }}>
-      <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Card.Link href="#">Card Link</Card.Link>
-        <Card.Link href="#">Another Link</Card.Link>
-      </Card.Body>
-    </Card>
+export default function Home() {
+  const {
+    data: comments,
+    isLoading,
+    isError: error,
+  } = useSWR(
+    "https://jsonplaceholder.typicode.com/comments?_limit=6",
+    fetcher,
+    { revalidateOnFocus: false, revalidateOnReconnect: false }
   );
-}
 
-export default TextExample;
+  if (error) {
+    return <p>Failed to fetch</p>;
+  }
+
+  if (isLoading) {
+    return <p>Loading comments...</p>;
+  }
+
+  return (
+       <ul>
+          {comments.map((comment, index) => (
+            <li key={index}>
+              {comment.name}
+            </li>
+          ))}
+        </ul>
