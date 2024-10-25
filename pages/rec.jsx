@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { createClient } from 'contentful';
+import Layout from '../components/layout';
 
 const client = createClient({
   space: process.env.NEXT_PUBLIC_CONTENTFUL_SPACE,
@@ -18,6 +19,7 @@ const Rec = () => {
   }, []);
 
   return (
+    <Layout />
     <div className="container-fluid">
       <div className="row justify-content-center rounded-lg mb-5">
         {recipes.map((item) => (
