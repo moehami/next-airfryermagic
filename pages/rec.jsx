@@ -1,9 +1,8 @@
-// pages/index.js
+// pages/rec.jsx
 
 import { useEffect, useState } from 'react';
 import { createClient } from 'contentful';
-//import * as bootstrap from 'bootstrap'
-import Layout from '../components/layout';
+//import Layout from '../components/layout';
 
 const client = createClient({
   space: '9z46zrgh5qec',
