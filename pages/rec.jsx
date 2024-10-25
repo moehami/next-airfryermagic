@@ -29,8 +29,8 @@ const Rec = () => {
                   More
                 </a>
                 {/* More fields if needed */}
-              </div>
-            </card>
+              </card>
+            </div>
           </div>
         ))}
       </div>
