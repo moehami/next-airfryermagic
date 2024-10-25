@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react';
 import { createClient } from 'contentful';
 //import * as bootstrap from 'bootstrap'
-
+import * as '../public/assets/bootstrap/css/bootstrap.min_rnd1729249664608.css';
 const client = createClient({
   space: '9z46zrgh5qec',
   accessToken: 'KzOIik4H_2cON-AliK4ROe8txuHoDWelHPVKsnWDXNM'
