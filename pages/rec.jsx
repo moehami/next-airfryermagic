@@ -1,4 +1,5 @@
 // pages/index.js
+import Layout from '../components/layout';
 import { useEffect, useState } from 'react';
 import { createClient } from 'contentful';
 //import * as bootstrap from 'bootstrap'
@@ -17,6 +18,7 @@ const Rec = () => {
   }, []);
 
   return (
+    <Layout />
      <div className="container-fluid">
       <div className="row justify-content-center rounded-lg mb-5">
         {recipes.map((item) => (
