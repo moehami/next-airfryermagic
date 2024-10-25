@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react';
 import { createClient } from 'contentful';
 import { Row, Col, Card } from 'bootstrap';
-import Container from 'react-bootstrap/Container'
+import Container from 'bootstrap/Container'
 
 const client = createClient({
   space: '9z46zrgh5qec',
