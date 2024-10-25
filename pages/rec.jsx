@@ -1,8 +1,9 @@
 // pages/index.js
-import Layout from '../components/layout';
+
 import { useEffect, useState } from 'react';
 import { createClient } from 'contentful';
 //import * as bootstrap from 'bootstrap'
+import Layout from '../components/layout';
 
 const client = createClient({
   space: '9z46zrgh5qec',
@@ -19,7 +20,7 @@ const Rec = () => {
 
   return (
     <>
-    <Layout />
+    <Layout/>
      <div className="container-fluid">
       <div className="row justify-content-center rounded-lg mb-5">
         {recipes.map((item) => (
@@ -41,9 +42,9 @@ const Rec = () => {
       </div>
     </div>
   );
-};
+}
 </>
-export default Rec;
+    export default Rec;
 
 
 
