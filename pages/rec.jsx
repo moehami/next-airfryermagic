@@ -17,11 +17,11 @@ const Rec = () => {
   }, []);
 
   return (
-    <div classNameName="container-fluid">
-      <div classNameName="row justify-content-center rounded-lg mb-5">
+    <div className="container-fluid">
+      <div className="row justify-content-center rounded-lg mb-5">
         {recipes.map((item) => (
           <div key={item.sys.id} md={4}>
-            <div classNameName="mb-4">
+            <div className="mb-4">
               
 <div className="card" style="width: 18rem;">
     <img src={item.fields.image} className="card-img-top" alt="..." />
