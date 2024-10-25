@@ -1,6 +1,6 @@
 // pages/index.js
 
-import { Container, Row, Col, Card } from 'bootstrap';
+//import { Container, Row, Col, Card } from 'bootstrap';
 import { useEffect, useState } from 'react';
 import { createClient } from 'contentful';
 
