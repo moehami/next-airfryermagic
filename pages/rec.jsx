@@ -46,7 +46,7 @@ const Rec = () => {
 }
 </>
     
-  export default Rec;
+  export default Rec
 
 
 
