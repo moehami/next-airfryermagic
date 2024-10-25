@@ -1,7 +1,7 @@
 // pages/index.js
 import { useEffect, useState } from 'react';
 import { createClient } from 'contentful';
-import { Container, Row, Col, Card } from 'bootstrap';
+import { Row, Col, Card } from 'bootstrap';
 import Container from 'react-bootstrap/Container'
 
 const client = createClient({
