@@ -17,21 +17,24 @@ const Rec = () => {
   }, []);
 
   return (
-     <Container>
-      <Row>
+     <div className="container-fluid">
+      <div className="row justify-content-center mb-5">
         {recipes.map((item) => (
-          <Col key={item.sys.id} md={4}>
-            <Card className="mb-4">
-              <Card.Body>
-                <Card.Title>{item.fields.title}</Card.Title>
-                <Card.Text>{item.fields.content}</Card.Text>
+          <div key={item.sys.id} md={4}>
+            <div className="mb-4">
+              <card>
+                <div className="mbr-section-head"> <h4 className="mbr-section-title mbr-fonts-style align-center mb-0 display-2">{item.fields.title}</h4></div>
+                 <p className="mbr-text mbr-fonts-style mb-3 display-7">{item.fields.content}</p>
+                    <a href="" className="btn item-btn btn-primary display-7">
+                  More
+                </a>
                 {/* More fields if needed */}
-              </Card.Body>
-            </Card>
-          </Col>
+              </div>
+            </card>
+          </div>
         ))}
-      </Row>
-    </Container>
+      </div>
+    </div>
   );
 };
 
