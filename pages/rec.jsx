@@ -35,8 +35,6 @@ const Rec = () => {
                   </div>
 </div>
       
-                </div>
-              </div>
             </div>
           </div>
         ))}
