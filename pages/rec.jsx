@@ -19,7 +19,7 @@ const Rec = () => {
   }, []);
 
   return (
-    <Layout/>
+    <Layout>
     <div className="container-fluid">
       <div className="row justify-content-center rounded-lg mb-5">
         {recipes.map((item) => (
@@ -42,6 +42,7 @@ const Rec = () => {
         ))}
       </div>
     </div>
+      </Layout>  
   );
 };
 
