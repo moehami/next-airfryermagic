@@ -9,7 +9,6 @@
     "export": "next build && next export"
   },
   "dependencies": {
-    "@netlify/plugin-nextjs": "^5.8.1",
     "bootstrap": "^5.3.3",
     "contentful": "^11.1.4",
     "next": "^15.0.0",
