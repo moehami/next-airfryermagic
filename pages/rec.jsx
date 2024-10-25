@@ -18,6 +18,7 @@ const Rec = () => {
   }, []);
 
   return (
+    <>
     <Layout />
      <div className="container-fluid">
       <div className="row justify-content-center rounded-lg mb-5">
