@@ -25,6 +25,7 @@ export default function LatestNewsSection() {
                 src="/assets/images/qCf6hCvXsaxR.jpeg"
                 alt="Air Fryer Magic"
                 title=""
+                   width={100%}
               />
             </div>
             <div className="item-content align-left">
@@ -53,6 +54,7 @@ export default function LatestNewsSection() {
                 src="/assets/images/0G5k5hXnU9Qb.jpeg"
                 alt="Mobirise Website Builder"
                 title=""
+                   width={100%}
                 data-slide-to={1}
                 data-bs-slide-to={1}
               />
@@ -83,6 +85,7 @@ export default function LatestNewsSection() {
                 src="/assets/images/xYCYbD5tjfLU.jpeg"
                 alt="air fryer lover"
                 title=""
+                width={100%}
                 data-slide-to={2}
                 data-bs-slide-to={2}
               />
@@ -113,6 +116,7 @@ export default function LatestNewsSection() {
                 src="/assets/images/bwQ7N0K8SlqD.jpeg"
                 alt="af lover"
                 title=""
+                   width={100%}
                 data-slide-to={2}
                 data-bs-slide-to={2}
               />
