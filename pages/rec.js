@@ -31,7 +31,6 @@ const Rec = () => {
                     <a href="" className="btn item-btn btn-primary display-7">
                   More
                 </a>
-                {/* More fields if needed */}
                    </div>
               </div>
             </div>
@@ -39,7 +38,7 @@ const Rec = () => {
         ))}
       </div>
     </div>
-  );
+  )
   export default Rec
 
 
