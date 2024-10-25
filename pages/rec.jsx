@@ -1,8 +1,7 @@
 // pages/index.js
 import { useEffect, useState } from 'react';
 import { createClient } from 'contentful';
-import { Row, Col, Card } from 'bootstrap';
-import Container from 'bootstrap'
+import * as bootstrap from 'bootstrap'
 
 const client = createClient({
   space: '9z46zrgh5qec',
