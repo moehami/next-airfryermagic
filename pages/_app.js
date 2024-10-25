@@ -4,8 +4,8 @@ import { Roboto_Flex } from 'next/font/google';
 import "bootstrap/dist/css/bootstrap.min.css";
 
 
-import '../public/assets/bootstrap/css/bootstrap-grid.min_rnd1729249664608.css';
-import '../public/assets/bootstrap/css/bootstrap.reboot.min_rnd1729249664608.css';
+//import '../public/assets/bootstrap/css/bootstrap-grid.min_rnd1729249664608.css';
+//import '../public/assets/bootstrap/css/bootstrap.reboot.min_rnd1729249664608.css';
 
 import '../public/assets/web/assets/mobirise-icons2/mobirise2_rnd1729249664608.css';
 import '../public/assets/parallax/jarallax_rnd1729249664608.css';
