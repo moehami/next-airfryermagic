@@ -1,4 +1,4 @@
-// pages/rec.jsx
+// pages/rec.js
 
 import { useEffect, useState } from 'react';
 import { createClient } from 'contentful';
@@ -18,14 +18,14 @@ const Rec = () => {
   }, []);
 
   return (
-    <>
-     <div className="container-fluid">
+
+    <div className="container-fluid">
       <div className="row justify-content-center rounded-lg mb-5">
         {recipes.map((item) => (
           <div key={item.sys.id} md={4}>
             <div className="mb-4">
               <div className="card">
-                <div className="mbr-section-head"> <h4 className="mbr-section-title mbr-fonts-style align-center mb-0 display-2">{item.fields.title}</h4></div>
+                <div className="mbr-section-head"><h4 className="mbr-section-title mbr-fonts-style align-center mb-0 display-2">{item.fields.title}</h4></div>
                  <div className="leading-relaxed text-lg text-gray-700 py-6">
                 <p className="mbr-text mbr-fonts-style mb-3 display-7">{item.fields.contents}</p>
                     <a href="" className="btn item-btn btn-primary display-7">
@@ -40,10 +40,6 @@ const Rec = () => {
       </div>
     </div>
   );
-      
-}
-</>
-    
   export default Rec
 
 
