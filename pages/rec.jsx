@@ -42,7 +42,7 @@ const Rec = () => {
     </div>
   );
 };
-
+</>
 export default Rec;
 
 
