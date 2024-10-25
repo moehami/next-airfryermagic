@@ -25,7 +25,7 @@ const Rec = () => {
               <div className="card">
                 <div className="mbr-section-head"> <h4 className="mbr-section-title mbr-fonts-style align-center mb-0 display-2">{item.fields.title}</h4></div>
                  <div className="leading-relaxed text-lg text-gray-700 py-6">
-                <p className="mbr-text mbr-fonts-style mb-3 text-justify display-7">{item.fields.contents}</p>
+                <p className="mbr-text mbr-fonts-style mb-3 display-7">{item.fields.contents}</p>
                     <a href="" className="btn item-btn btn-primary display-7">
                   More
                 </a>
