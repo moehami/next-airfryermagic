@@ -29,6 +29,7 @@ const Rec = () => {
     <h5 class="card-title">{item.fields.title}</h5>
 <p class="card-text">
                       {item.fields.contents}
+  </p>
     <a href="#" class="btn btn-primary">More</a>
 
                   </div>
