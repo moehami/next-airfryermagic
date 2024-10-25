@@ -13,7 +13,8 @@ const Rec = () => {
 
   useEffect(() => {
     client.getEntries({ content_type: 'recipe' })
-      .then((response) => setRecipes(response.items));
+      .then((response) => setRecipes(response.items))
+      .catch((error) => console.error("Error fetching data:", error));
   }, []);
 
   return (
@@ -22,19 +23,18 @@ const Rec = () => {
         {recipes.map((item) => (
           <div key={item.sys.id} md={4}>
             <div className="mb-4">
-              
-<div className="card" style="width: 18rem;">
-    <img src={item.fields.image} className="card-img-top" alt="..." />
-  <div classNameName="card-body">
-    <h5 className="card-title">{item.fields.title}</h5>
-<p className="card-text">
-                      {item.fields.contents}
-  </p>
-    <a href="#" className="btn btn-primary">More</a>
-
-                  </div>
-</div>
-      
+              <div className="card" style={{ width: '18rem' }}>
+                <img 
+                  src={item.fields.image?.fields?.file?.url} 
+                  className="card-img-top" 
+                  alt={item.fields.title || "Recipe Image"} 
+                />
+                <div className="card-body">
+                  <h5 className="card-title">{item.fields.title}</h5>
+                  <p className="card-text">{item.fields.contents}</p>
+                  <a href="#" className="btn btn-primary">More</a>
+                </div>
+              </div>
             </div>
           </div>
         ))}
