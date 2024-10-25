@@ -32,7 +32,7 @@ const Rec = () => {
                   alt={item.fields.title || "Recipe Image"} 
                 />
                 <div className="card-body">
-                  <h1 className="card-title"><strong>{item.fields.title}</strong></h1>
+                  <h2 className="font-extrabold text-xl">{item.fields.title}</h2>
                   <p className="card-text text-lg-left">{item.fields.contents}</p>
                   <a href="#" className="btn btn-primary">More</a>
                 </div>
