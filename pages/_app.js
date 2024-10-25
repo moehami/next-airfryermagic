@@ -3,6 +3,7 @@
 import { Roboto_Flex } from 'next/font/google';
 //import 'bootstrap/dist/css/bootstrap.min.css';
 import "bootstrap/dist/css/bootstrap.min.css";
+import AddBootstrap from "./AddBootstrap";
 
 import '../public/assets/bootstrap/css/bootstrap-grid.min_rnd1729249664608.css';
 import '../public/assets/bootstrap/css/bootstrap.min_rnd1729249664608.css';
