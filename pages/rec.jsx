@@ -22,19 +22,18 @@ const Rec = () => {
         {recipes.map((item) => (
           <div key={item.sys.id} md={4}>
             <div className="mb-4">
-              <div className="card">
-                <div className="mbr-section-head">
-                  <h4 className="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-                    {item.fields.title}
-                  </h4>
-                </div>
-                <div className="leading-relaxed text-lg text-gray-700 py-6">
-                  <p className="mbr-text mbr-fonts-style mb-3 display-7">
-                    {item.fields.contents}
-                  </p>
-                  <a href="#" className="btn item-btn btn-primary display-7">
-                    More
-                  </a>
+              
+<div class="card" style="width: 18rem;">
+    <img src={item.fields.image} class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{item.fields.title}</h5>
+<p class="card-text">
+                      {item.fields.contents}
+    <a href="#" class="btn btn-primary">More</a>
+
+                  </div>
+</div>
+      
                 </div>
               </div>
             </div>
