@@ -18,7 +18,7 @@ const Rec = () => {
 
   return (
      <div className="container-fluid">
-      <div className="row justify-content-center mb-5">
+      <div className="row justify-content-center rounded-lg mb-5">
         {recipes.map((item) => (
           <div key={item.sys.id} md={4}>
             <div className="mb-4">
