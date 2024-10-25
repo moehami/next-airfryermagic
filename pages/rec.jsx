@@ -23,7 +23,7 @@ const Rec = () => {
         {recipes.map((item) => (
           <div key={item.sys.id} md={4}>
             <div className="mb-4">
-              <div className="card shadow mx-auto" style={{ width: '70%' }}>
+              <div className="card shadow rounded mx-auto" style={{ width: '70%' }}>
                 <img 
                   src={item.fields.image?.fields?.file?.url} 
                   className="card-img-top" 
